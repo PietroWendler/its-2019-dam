@@ -2,9 +2,8 @@ function square1(size){
     for (let i = 0; i < size; i++) {  
         for (let j = 0; j < size; j++) {
             process.stdout.write("*");
-            if(j === size -1)
-                process.stdout.write("\n");
         }
+        process.stdout.write("\n");
     }
 }
 
@@ -15,11 +14,9 @@ function square2(size){
                j === 0 || j === size -1)
                 process.stdout.write("*");
             else
-                process.stdout.write(" ");
-
-            if(j === size -1)
-                process.stdout.write("\n");
+                process.stdout.write(" ");    
         }
+        process.stdout.write("\n");
     }
 }
 
