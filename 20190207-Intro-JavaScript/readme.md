@@ -27,3 +27,14 @@ console.log(op.exec()); // 5535
 var op = new Calc(123, 45, "/");
 console.log(op.exec()); // 2.733333333333333
 ```
+
+
+### Esercitazione square
+
+Creare una funzione che dato un numero in ingresso, disegni un quadrato pieno di * con il lato della dimensione specificata.
+
+Creare una funzione che dato un numero in ingresso, disegni solo i bordi di un quadrato, con il lato della dimensione specificata.
+
+Utilizzare *process.stdout.write("\*");* per scrivere il singolo carattere.
+
+

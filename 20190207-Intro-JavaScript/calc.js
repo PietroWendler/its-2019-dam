@@ -31,3 +31,4 @@ console.log(op.exec()); // 5535
 
 var op = new Calc(123, 45, "/");
 console.log(op.exec()); // 2.7333333333333334
+
