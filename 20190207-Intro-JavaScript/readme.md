@@ -1,4 +1,4 @@
-## Codice della lezione del 2017.02.07
+## Codice della lezione del 2019.02.07
 
 - introduzione a JavaScript
 - variabili
