@@ -24,10 +24,10 @@ var op = new Calc(123, 45, "+");
 console.log(op.exec()); // 168
 
 var op = new Calc(123, 45, "-");
-console.log(op.exec()); 
+console.log(op.exec()); // 78
 
 var op = new Calc(123, 45, "*");
-console.log(op.exec()); 
+console.log(op.exec()); // 5535
 
 var op = new Calc(123, 45, "/");
-console.log(op.exec()); 
+console.log(op.exec()); // 2.7333333333333334
