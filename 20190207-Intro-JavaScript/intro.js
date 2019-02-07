@@ -3,7 +3,6 @@
 /* 
     commentare più righe 
 */
-
 var a = 42;
 a = "pippo";
 var b = true;
