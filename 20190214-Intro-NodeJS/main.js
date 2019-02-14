@@ -5,8 +5,6 @@ var fs = require('fs');
 var result = op.add(2, 5);
 console.log(result);
 
-
-
 setTimeout(function () {
     console.log("ciao dopo 1 secondo");
 }, 1000);
@@ -28,3 +26,4 @@ http.createServer((req, res) => {
         res.end();
     });
 }).listen(8080);
+

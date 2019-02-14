@@ -14,3 +14,37 @@
   - http
   - fs
   - path
+
+
+## Esercitazione
+
+>### 1_ Array
+> - file main1.js di avvio
+> -  file utilities/arrayUtils.js
+>       - getList(count) 		-> ritorna un'array di string con X elementi
+>       - taken(list, maxItems) -> ritorna i primi (maxItems) dell'array passato come argomento
+>       - sortReverse(list)		-> ritorna l'array ordinato al contrario
+>       - getEven(list)			-> ritorna un array con i soli elementi presenti agli indici pari
+>-  dal file main1.js richiamare il metodo getList per farsi dare un array e poi richiamare i metodi di arrayUtils.js
+
+>### 2_ File System
+> - file main2.js di avvio
+> - scrivere nella console tutti i file di una precisa directory
+	
+>### 3_ File System + http
+> - file main3.js di avvio
+> - data una richiesta http, far ritornare un testo contenente l'elenco di file di una precisa directory
+	
+>### 4_ File System + http
+> - file main4.js di avvio
+> -ad ogni richiesta http scrivere un file con la data e ora corrente, htttp method, url e l'ip da qui proviene la richiesta
+>
+
+Per recuperare l'IP di chi sta eseguendo la richiesta corrente:
+
+``` javascript	
+var ip = req.headers['x-forwarded-for'] 
+            || req.connection.remoteAddress 
+            ||  req.socket.remoteAddress 
+            || (req.connection.socket ? req.connection.socket.remoteAddress : null);
+```
