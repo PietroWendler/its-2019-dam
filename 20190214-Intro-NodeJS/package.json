@@ -1,0 +1,10 @@
+{
+    "name": "dottor-intro-node",
+    "description": "Codice prima lezione su Node.JS",
+    "authors": "Andrea Dottor",
+    "version": "0.0.1",
+    "main": "main.js",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
