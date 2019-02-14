@@ -11,9 +11,9 @@
   - npm update
   - npm install     --> installa tutte le dipendenze specificate nel package.json
 - uso dei moduli core di node
-  - http
-  - fs
-  - path
+  - http [https://nodejs.org/api/http.html](https://nodejs.org/api/http.html)
+  - fs [https://nodejs.org/api/fs.html](https://nodejs.org/api/fs.html)
+  - path [https://nodejs.org/api/path.html](https://nodejs.org/api/path.html)
 
 
 ## Esercitazione
@@ -48,3 +48,4 @@ var ip = req.headers['x-forwarded-for']
             ||  req.socket.remoteAddress 
             || (req.connection.socket ? req.connection.socket.remoteAddress : null);
 ```
+
