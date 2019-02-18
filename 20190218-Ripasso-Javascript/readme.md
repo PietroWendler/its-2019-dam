@@ -1,8 +1,12 @@
 # Ripasso basi di JavaScript
 * Variabili
+  * Differenza tra *let* e *var* 
 * Funzioni
 * Oggetti
+  * Vari modi di creare un oggetto
+* Array
 * If
+  * In quali casi una condizione vale False
 * For
 
 ## Esercizio
