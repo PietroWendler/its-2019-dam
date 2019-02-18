@@ -172,3 +172,30 @@ for (let i = 0; i < 20; i++) {
 }
 
 
+// ****** 
+// Array
+
+var list1 = new Array();
+list1.push(new User("Andrea", "Dottor"));
+list1.push(new User("Lorenzo", "Dottor"));
+list1.push({ name: "Tommaso", surname: "Dottor" });
+
+var list2 = [new User("Andrea", "Dottor"), new User("Lorenzo", "Dottor")];
+
+var list3 = new Array();
+list3.push(1);
+list3.push(2);
+list3.push(3);
+
+var list4 = [1, 2, 3];
+
+var list5 = new Array();
+list5[0] = new User("Andrea", "Dottor");
+list5[1] = new User("Lorenzo", "Dottor");
+var tempUser5 = new Object();
+tempUser5.name = "Tommaso";
+tempUser5.surname = "Dottor";
+list5[2] = tempUser5; 
+/*tempUser5.name = "Alice";
+tempUser5.surname = "Dottor";
+list5[3] = tempUser5; */
