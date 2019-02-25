@@ -6,6 +6,10 @@ const fastify = require('fastify')({
 
 // Esempio gestione GET
 fastify.get('/', async (request, reply) => {
+    // esempio recupero parametro da query
+    var num1 = request.query["num1"];
+    var numero1 = parseInt(num1);
+
     return { hello: 'world' }
 });
   
