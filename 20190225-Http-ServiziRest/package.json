@@ -1,0 +1,10 @@
+{
+    "name": "its-servizi-rest",
+    "description": "Lezione del 2019.02.25 - Fastify",
+    "authors": "Andrea Dottor",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "fastify": "^2.0.0"
+    }
+}
