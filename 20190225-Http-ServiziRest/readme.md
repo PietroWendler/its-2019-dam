@@ -12,6 +12,11 @@
   * Json.org
 * Introduzione servizi REST
 * Introduzione a Fastify [https://www.fastify.io/](https://www.fastify.io/)
+  * Rispondere a richieste in GET
+  * Rispondere a richieste in POST
+  * Leggere da QueryString
+  * Leggere da Url
+  * Leggere dal body
 
 
 ## Esercitazione
