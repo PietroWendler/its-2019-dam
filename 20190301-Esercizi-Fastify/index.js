@@ -3,6 +3,8 @@ const fastify = require('fastify')({
     ignoreTrailingSlash: true
 });
 
+// const utility = require("./Utility");
+
 fastify.register(require('./products'), { prefix: '/api/products' });
 
 fastify.get('/api/operations/add', async (request, reply) => {
