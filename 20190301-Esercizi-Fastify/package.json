@@ -1,0 +1,10 @@
+{
+    "name": "esercizi-fastify",
+    "description": "Lezione del 2019.03.01",
+    "authors": "Andrea Dottor",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "fastify": "^2.0.0"
+    }
+}
