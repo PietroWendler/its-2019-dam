@@ -8,3 +8,5 @@
 Utilizzando Fastify, esporre i metodi tramite servizi HTTP che eseguano il codice specificato nell'esercitazione [https://github.com/andreadottor/its-2019-dam/tree/master/20190214-Intro-NodeJS](https://github.com/andreadottor/its-2019-dam/tree/master/20190214-Intro-NodeJS)
 
 * Gli esercizi che richiedono l'uso del modulo **http** non sono da eseguire, in quanto Fastify lo sostituisce.
+  * *3_ File System + http* non necessario
+  * *4_ File System + http* sostituire il modulo *http* con *Fastify* e quindi scrivere un file ad ogni chiamata del metodo fatto 
